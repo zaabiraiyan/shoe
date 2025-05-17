@@ -1,0 +1,34 @@
+/* Fullscreen container */
+.animation-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Base scene styling */
+.scene {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Arial Black', sans-serif;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: background 1s ease;
+}
+
+/* Specific backgrounds */
+.dark-yellow {
+  background-color: #d4a30f;
+}
+
+.black-bg {
+  background-color: #000;
+}
+
+.fully-cooked {
+  background: radial-gradient(circle at center, #333, #000);
+}
